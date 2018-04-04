@@ -1,3 +1,4 @@
+package Coordinate;
 
 import org.fxmisc.easybind.EasyBind;
 
