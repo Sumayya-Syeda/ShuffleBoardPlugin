@@ -1,0 +1,9 @@
+<!-- com/example/widget/Point2DWidget.fxml -->
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.Point2DWidget"
+      fx:id="root"
+      minWidth="64" minHeight="48"
+      spacing="4">
+  <Label fx:id="xLabel" text="0.0"/>
+  <Label fx:id="yLabel" text="0.0/>
+</VBox>
