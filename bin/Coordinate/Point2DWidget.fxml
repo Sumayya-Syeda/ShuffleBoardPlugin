@@ -1,6 +1,8 @@
 <!-- com/example/widget/Point2DWidget.fxml -->
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
 <VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.Point2DWidget"
+      fx:controller="com.Coordinate.Point2DWidget"
       fx:id="root"
       minWidth="64" minHeight="48"
       spacing="4">
