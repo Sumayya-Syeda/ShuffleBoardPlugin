@@ -7,8 +7,8 @@ import edu.wpi.first.shuffleboard.api.data.ComplexDataType;
 import edu.wpi.first.shuffleboard.api.util.Maps;
 
 
-public abstract class Point2DType extends ComplexDataType<Point2D> {
-	public static Point2DType Instance;
+public final class Point2DType extends ComplexDataType<Point2D> {
+	public static final Point2DType Instance = new Point2DType();
 	//private static final String NAME = "Instance";
 	private Point2DType() {
 		super("Point2D", Point2D.class);

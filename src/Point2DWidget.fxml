@@ -1,6 +1,9 @@
 <!-- com/example/widget/Point2DWidget.fxml -->
+<?import Plugin.Coordinate.MyPlugin?>
+<?import Plugin.Coordinate.Point2D.java?>
+<?import Plugin.Coordinate.Point2DType.java?>
 <VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.Point2DWidget"
+      fx:controller="com.Coordinate.Point2DWidget"
       fx:id="root"
       minWidth="64" minHeight="48"
       spacing="4">

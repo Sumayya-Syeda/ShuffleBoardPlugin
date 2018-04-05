@@ -1,4 +1,5 @@
 package Coordinate;
+import java.awt.Point;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -38,13 +39,13 @@ public class Point2D extends ComplexData<Point2D>{
 		return map;
 	}
 	public Point2D withX(double x) {
-		this.x = x;
-		return null;
+		return new Point2D(x, this.y);
+		
 	}
 	
 	public Point2D withY(double y) {
-		this.y = y;
-		return null;
+		return new Point2D(this.x, y);
+		
 	}
 	
 	
